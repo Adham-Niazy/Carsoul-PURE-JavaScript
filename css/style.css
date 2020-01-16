@@ -1,0 +1,33 @@
+.img-caption {
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);   
+    border-radius: 5px;
+    top: 100%;
+    transition: top 1s ease;
+}
+.img-conainer {
+    overflow: hidden;
+}
+.overlay {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.img-conainer:hover .img-caption {
+    top: 60%;
+}
+.none {
+    display: none !important;
+}
+i {
+    cursor: pointer;
+}
+.close-icon {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
